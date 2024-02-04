@@ -1,0 +1,61 @@
+
+.caption {
+    caption-side: top;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Anek Bangla', sans-serif;
+    margin: 1.2rem 0rem .1rem 0rem;
+}
+.caption span{
+    font-weight: 600;
+}
+.table_component {
+    overflow:auto;
+    /* width: 100vw; */
+
+}
+
+.table_component table {
+    border: 1px solid #dededf;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    table-layout: auto;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px solid #282847;
+    background-color: #b2e2ff;
+    color: #000000;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+}
+
+.table_component td {
+    border: 1px solid #000000;
+    padding: 5px;
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.table_component td i{
+    font-size: 1.7rem;
+    color: rgb(0, 136, 226);
+}
+.table_component td div{
+    margin: 0 auto;
+    text-align: center;
+}
+.table_component tr:nth-child(even) td {
+    background-color: #ebebeb;
+    color: #000000;
+}
+
+.table_component tr:nth-child(odd) td {
+    background-color: #ffffff;
+    color: #000000;
+}
