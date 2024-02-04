@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html{
     background-color: #ffffff;
 }
@@ -14,7 +20,7 @@ html{
 .table_component {
     overflow:auto;
     /* width: 100vw; */
-
+    margin: .5rem;
 }
 
 .table_component table {
@@ -76,5 +82,14 @@ html{
 
 /* !----Player----------- */
 .player{
-    display: none;
+    position: fixed;
+    bottom: 0rem;
+    /* right: 50%; */
+    /* transform: translateX(50%); */
+    width: 100vw;
+    margin-bottom: 2rem black;
+    padding-top: -2rem;
+    border: none;
+    background: transparent;
+    /* display: none; */
 }
