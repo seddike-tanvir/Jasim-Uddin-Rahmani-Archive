@@ -70,6 +70,7 @@ html{
 /* !----Player----------- */
 audio{
     width: 100%;
+    min-width: 13rem;
 }
 .caption {
     caption-side: top;
